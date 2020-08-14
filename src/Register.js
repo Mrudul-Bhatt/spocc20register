@@ -167,7 +167,8 @@ export default function Register() {
 							color='primary'
 							className={classes.submit}
 							onClick={() => signup()}
-							disabled={loader}
+							//disabled={loader}
+							disabled={true}
 							disableElevation
 						>
 							Register
