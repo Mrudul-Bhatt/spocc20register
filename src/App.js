@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import Register from './Register';
+import { Scores } from './Score';
 
 function App() {
 	return (
 		<div className='App'>
 			<Navbar />
-			<Register />
+			<Scores />
 		</div>
 	);
 }
